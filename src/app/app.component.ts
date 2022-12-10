@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'front-end';
+  myImg:string = "../img/WhatsApp Image 2022-11-11 at 13.08.59.jpeg";
 }
