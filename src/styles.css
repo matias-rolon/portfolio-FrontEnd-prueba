@@ -1,5 +1,8 @@
 *{
     font-family: 'Nunito', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
 section{
@@ -14,6 +17,8 @@ section{
     width: 70px;
     height: 70px;
     display: inline;
+    border-radius: 100%;
+
 }
 
 h5{
@@ -29,7 +34,7 @@ article{
     margin: 10px;
 }
 
-.foto{
+#foto{
     border-radius: 100%;
     width: 150px;
     height: 150px;
@@ -57,17 +62,22 @@ article{
     border-top-right-radius: 0px;
 }
 
-.redes{
-    width: 40px;
-    height: 40px;
-    padding: 3px;
-}
-
 .arg{
     width: 270px;
     height: 50px;
 }
 
-
+@media(max-width: 576px){
+    #sobre-mi{
+        text-align: center;
+    }
+    #foto{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 130px;
+        height: 130px;
+    }
+}
 
 
